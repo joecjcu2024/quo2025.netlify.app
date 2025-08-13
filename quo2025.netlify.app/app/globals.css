@@ -1,0 +1,9 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 可加自訂列印調整 */
+@media print {
+  @page { size: A4; margin: 10mm; }
+}
